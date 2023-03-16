@@ -1,0 +1,30 @@
+<div class="d-flex align-items-center justify-content-center"style="height: 100%;">
+    <div class="p-2 m-2" >
+        <div class="card px-4">
+            <div class="p-5">
+                <img src="../../assets/images/logo.svg" class="card-img-top" alt="logo" id="logo">
+                <img src="../../assets/images/logoletra.svg" class="card-img-top" alt="logoletra" style="height: 7rem;">
+                <div class="row text-center">
+                    <div class="col-6"><p class="fw-bold">¿Nuevo usuario?</p></div>
+                    <div class="col-6"><a routerLink="/registrarse" class="text-reset">Regístrate</a></div>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="text" class="form-control" placeholder="Ingrese su email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="disabledTextInput" class="form-label">Contraseña</label>
+                            <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese su contraseña">
+                        </div>
+                        <button type="submit" routerLink="/main" class="btn btn-primary col-12 mt-2">INICIAR SESIÓN</button>
+                        <div class="text-center mt-3">
+                            <a routerLink="/forgot-pass" class="text-reset">¿Olvidaste tu contraseña?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

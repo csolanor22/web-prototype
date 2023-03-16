@@ -1,5 +1,9 @@
 # WebPrototype
 
+Prototipo basado en los mockups 
+https://www.figma.com/proto/pjrdDV7y2B1lJZB6JeXI5P/Habitos-y-rutinas?node-id=2-20&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A20
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
 
 ## Development server
